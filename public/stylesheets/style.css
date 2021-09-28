@@ -1,0 +1,15 @@
+
+body {
+  background-color: #000000;
+  color: #00AA00;
+  font: 14px monospace;
+  padding: 5px 10px 10px 10px
+}
+
+.input, .action {
+  margin: 10px 0 10px 0
+}
+
+input[type="button"] {
+  margin: 0 10px 0 0
+}

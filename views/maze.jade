@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= "A-MAZE-IN"
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1= "A-MAZE-IN"
+    div.action
+      input(type="button", value="fill with default data", onclick="fillWithDefaultData()")
+      input(type="button", value="clear data", onclick="clearData()")
+    div.input
+      span.label Enter maze
+      br
+      textarea(name="maze", cols="24", rows="12")
+    div.input
+      span.label Enter start position
+      br
+      input(type="text", name="start")
+    div.input
+      span.label Enter pattern
+      br
+      input(type="text", name="pattern")
+    div.action
+      input(type="button", value="submit problem instance", onclick="submit()")
+
+    script(src='/javascripts/scripting.js')
