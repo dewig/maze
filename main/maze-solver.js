@@ -47,7 +47,7 @@ If you still have neighbors, choose the first as your current position and loop.
 // 3. you can only take orthogonal steps on the maze
 // 4. the pattern has at least one character
 
-const solver = (data) => {
+const solver = data => {
 
     const {maze, start, pattern} = data;
 
